@@ -2,7 +2,7 @@
 const emergencyServices = [
     {
         id: 1,
-        icon: 'assets/emergency.png',
+        icon: 'assets/icons/emergency.png',
         name: 'National Emergency Number',
         english: 'National Emergency ',
         number: '999',
@@ -10,7 +10,7 @@ const emergencyServices = [
     },
     {
         id: 2,
-        icon: 'assets/police.png',
+        icon: 'assets/icons/police.png',
         name: 'Police Helpline Number',
         english: 'Police ',
         number: '999',
@@ -18,7 +18,7 @@ const emergencyServices = [
     },
     {
         id: 3,
-        icon: 'assets/fire-service.png',
+        icon: 'assets/icons/fire-service.png',
         name: 'Fire Service Number',
         english: 'Fire Service ',
         number: '999',
@@ -26,7 +26,7 @@ const emergencyServices = [
     },
     {
         id: 4,
-        icon: 'assets/ambulance.png',
+        icon: 'assets/icons/ambulance.png',
         name: 'Ambulance Service ',
         english: 'Ambulance ',
         number: '1994-999999',
@@ -34,7 +34,7 @@ const emergencyServices = [
     },
     {
         id: 5,
-        icon: 'assets/emergency.png',
+        icon: 'assets/icons/emergency.png',
         name: 'Women & Child Helpline',
         english: 'Women & Child Helpline',
         number: '109',
@@ -42,7 +42,7 @@ const emergencyServices = [
     },
     {
         id: 6,
-        icon: 'assets/emergency.png',
+        icon: 'assets/icons/emergency.png',
         name: 'Anti-corruption Helpline',
         english: 'Anti-corruption',
         number: '106',
@@ -50,7 +50,7 @@ const emergencyServices = [
     },
     {
         id: 7,
-        icon: 'assets/emergency.png',
+        icon: 'assets/icons/emergency.png',
         name: 'Electricity Helpline',
         english: 'Electricity outage',
         number: '16216',
@@ -58,7 +58,7 @@ const emergencyServices = [
     },
     {
         id: 8,
-        icon: 'assets/brac.png',
+        icon: 'assets/icons/brac.png',
         name: 'BRAC Helpline',
         english: 'BRAC ',
         number: '16445',
@@ -66,7 +66,7 @@ const emergencyServices = [
     },
     {
         id: 9,
-        icon: 'assets/Bangladesh-Railway.png',
+        icon: 'assets/icons/Bangladesh-Railway.png',
         name: 'Railway Helpline',
         english: 'Railway ',
         number: '163',
@@ -285,3 +285,4 @@ function loadFromLocalStorage() {
 
 // Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', init);
+
